@@ -1,0 +1,48 @@
+h1 {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BDBDBD;
+    margin-left: 135px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #333333;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 135px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.container__gallery {
+    max-width: 1440px;
+}
+
+.gallery__img {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.gal__block {
+    display: flex;
+    flex-direction: row;
+    margin-left: 135px;
+    margin-right: 135px;
+    gap: 30px;
+}
+
+.gallery__img {
+    width: 210px;
+    gap: 30px;
+}
