@@ -1,0 +1,103 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: rgba(189, 189, 189, 1);
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  margin: 0;
+}
+
+.main {
+  margin-left: 135px;
+  width: 1170px;
+  height: 268px;
+}
+
+.main__item {
+  display: flex;
+  width: 100%;
+  margin-top: 62px;
+}
+
+.main__item.item {
+  display: flex;
+  height: 144px;
+}
+
+.item_1 {
+  color: rgba(242, 242, 242, 1);
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 235px;
+  margin: 0px;
+  margin-right: 62px;
+}
+
+.item_2 {
+  display: flex;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  margin: 0;
+}
+
+.btn {
+  width: 222px;
+  height: 71px;
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 7px 0 rgb(41, 40, 40);
+  color: #ffffffc6;
+}
+
+.ourprojects {
+  margin-left: 119px;
+  margin-top: 125px;
+}
+
+.button__all {
+  display: flex;
+  justify-content: flex-end;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactUs {
+  margin-left: 135px;
+}
+
+.ContactUs__item {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.button__send {
+  display: flex;
+}
+
+form {
+  font-weight: 39px;
+  line-height: 16px;
+  color: rgba(141, 141, 141, 1);
+  background-color: rgba(243, 243, 243, 1);
+}
