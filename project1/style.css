@@ -124,6 +124,9 @@ h2 {
   margin-bottom: 120px;
 }
 
+.block-contact__form {
+  width: 391px;
+}
 .block-contact__item {
   display: flex;
   flex-direction: row;
@@ -138,8 +141,6 @@ h2 {
 .form {
   line-height: 16px;
   color: rgba(141, 141, 141, 1);
-  height: 370px;
-  width: 391px;
   letter-spacing: 1px;
   padding: 0;
 }
@@ -148,12 +149,8 @@ h2 {
   position: relative;
   margin-bottom: 10px;
 }
-
-.form__label {
-  display: flex;
-  position: absolute;
-  top: 0;
-  z-index: 2;
+.block-form__group:last-child {
+  margin: 0;
 }
 
 .form__input {
@@ -162,6 +159,10 @@ h2 {
   border: none;
   transition: 0.3s;
   height: 46px;
+  padding-left: 15px;
+}
+.message {
+  height: 155px;
 }
 
 .form__input:focus {
