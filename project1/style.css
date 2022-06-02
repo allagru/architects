@@ -72,7 +72,6 @@ h2 {
 
 .block-projects {
   display: block;
-  margin-left: 135px;
   margin-top: 125px;
   max-width: 1170px;
 }
@@ -89,6 +88,8 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1%;
+  gap: 15px;
+  width: 100%;
 }
 
 .block-container__img {
@@ -96,7 +97,6 @@ h2 {
 }
 
 .block-contact {
-  margin-left: 135px;
   margin-bottom: 120px;
 }
 
@@ -124,6 +124,7 @@ h2 {
   position: relative;
   margin-bottom: 10px;
 }
+
 .form__label {
   display: flex;
   position: absolute;
@@ -138,6 +139,7 @@ h2 {
   transition: 0.3s;
   height: 46px;
 }
+
 .form__input:focus {
   border-bottom: 1px solid rgb(212, 206, 206);
 }
