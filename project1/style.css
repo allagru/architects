@@ -95,7 +95,24 @@ h2 {
 .block-container__img {
   max-width: 100%;
 }
-
+.block-container__p1 {
+  display: flex;
+  position: absolute;
+  width: 233px;
+  margin-left: 79px;
+  margin-top: 40px;
+  font-weight: 700px;
+  font-size: 64px;
+  color: white;
+  z-index: 2;
+}
+.block-container__img__view {
+  display: flex;
+  position: absolute;
+  margin-left: 79px;
+  margin-top: 188px;
+  z-index: 2;
+}
 .block-contact {
   margin-bottom: 120px;
 }
