@@ -94,7 +94,14 @@ h2 {
 
 .block-container__img {
   max-width: 100%;
+  filter: grayscale(0);
 }
+
+.block-container__img:hover {
+  filter: grayscale(1);
+  transition: 0.2s;
+}
+
 .block-container__p1 {
   display: flex;
   position: absolute;
