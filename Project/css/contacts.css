@@ -1,0 +1,121 @@
+.contacts-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 5% 10%;
+}
+
+.contact-information {
+    padding-top: 10px;
+}
+
+.contact-information__title {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0em;
+    margin-bottom: 34px;
+}
+
+.contact-information__title-light {
+    font-weight: 300;
+    color: var(--grey-color);
+}
+
+.contact-information__title-dark {
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+.contact-information__address {
+    color: var(--black-color);
+    margin-bottom: 44px;
+}
+
+.contact-information__address-dark {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.contact-information__address-light {
+    font-weight: 300;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.contact-information__number {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 53px;
+}
+
+.contact-information__mail {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 33px;
+}
+
+.contact-information__btn {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    background: var(--black-color);
+    cursor: pointer;
+    padding: 30px 58px 29px 71px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(73, 71, 71, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(228, 25, 49, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(228, 25, 49, 0);
+    }
+}
+
+.contact-information__btn:hover {
+    background: #535252;
+    transition: 0.5s;
+}
+
+.contact-map {
+    width: 60%;
+}
+
+@media screen and (max-width:1023px) {
+    .contacts-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-information {
+        margin-bottom: 5%;
+    }
+    .contact-map {
+        width: 100%;
+    }
+    .contact-information__address {
+        margin-bottom: 20px;
+    }
+    .contact-information__number {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .contacts-section {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .contact-information__address {
+        margin-bottom: 20px;
+    }
+    .contact-information__number {
+        margin-bottom: 20px;
+    }
+}

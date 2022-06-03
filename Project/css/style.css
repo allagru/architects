@@ -1,0 +1,27 @@
+
+
+
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+@import url(header.css);
+@import url(main-lorum.css);
+@import url(main-about.css);
+@import url(main-projects.css);
+@import url(gallery.css);
+@import url(our_projects.css);
+@import url(sample.css);
+@import url(certifications.css);
+@import url(contacts.css);
+@import url(footer.css);
+
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+:root {
+    --grey-color: #BDBDBD;
+    --black-color: #333333;
+}
