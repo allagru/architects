@@ -8,6 +8,15 @@
     font-weight: 400;
     letter-spacing: 0.2em;
     color: var(--black-color);
+    max-width: 1440px;
+}
+
+@media screen and (min-width:2000px) {
+    .header {
+        margin: auto;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
 }
 
 .nav {

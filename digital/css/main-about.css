@@ -4,7 +4,7 @@
 }
 
 .about__content_btn_link::after {
-    content: url(/img/arrow.svg);
+    content: url(../img/arrow.svg);
     position: absolute;
     margin-left: 18px;
     top: 19px;
@@ -81,5 +81,11 @@
     }
     .about__content_btn {
         margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .about__content_text {
+        margin-bottom: 10px;
     }
 }

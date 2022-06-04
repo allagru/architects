@@ -1,6 +1,13 @@
 .main {
     margin-right: 10%;
     margin-left: 10%;
+    max-width: 1440px;
+}
+
+@media screen and (min-width:2000px) {
+    .main {
+        margin: auto;
+    }
 }
 
 .project {
@@ -8,6 +15,7 @@
     justify-content: space-between;
     margin-top: 0;
     margin-bottom: 10%;
+    gap: 20px;
 }
 
 .project__content {
@@ -51,7 +59,7 @@
     padding: 24px 91px 24px 20px;
     cursor: pointer;
     font-size: 12px;
-    color: #333333;
+    color: var(--black-color);
     font-weight: 400;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -62,7 +70,7 @@
 }
 
 .project__view_btn_link::after {
-    content: url(/img/arrow.svg);
+    content: url(../img/arrow.svg);
     position: absolute;
     margin-left: 18px;
     top: 19px;

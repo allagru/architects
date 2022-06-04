@@ -2,6 +2,14 @@
     display: flex;
     justify-content: space-between;
     margin: 0 10% 5% 10%;
+    max-width: 1440px;
+}
+
+@media screen and (min-width:2000px) {
+    .contacts-section {
+        margin: auto;
+        margin-bottom: 5%;
+    }
 }
 
 .contact-information {
